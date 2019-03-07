@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/survey.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Shadows+Into+Light" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero is-primary is-bold">
+        <a class="navbar-brand" href="/logout">Logout</a>
+        <div class="hero-body">
+            <a href="/main">
+                <div class="container">
+                    <img class="tree" src="https://cdn3.iconfinder.com/data/icons/beach-icons/496/Palm_Trees-512.png"
+                        height="100" width="100" align="left" alt="">
+                    <h1 class="title">
+                        RAFT
+                    </h1>
+                    <h2 class="subtitle">
+                        Stop drowning, Start planning..
+                    </h2>
+                    <img class="raft" src="https://image.flaticon.com/icons/png/512/208/208590.png" height="100" width="100"
+                        align="right" alt="">
+
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="container">
+            <p class="title is-1 is-center">Travel Questions</p>
+            <hr>
+            <form class="form-control">
+                <p class="title is-3">Question 1</p>
+                <p class="subtitle is-5">What kind of climate do you enjoy?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q1">
+                                <option value=""></option>
+                                <option value="Brisk">Brisk</option>
+                                <option value="Sunny">Sunny</option>
+                                <option value="Tropical">Tropical</option>
+                                <option value="Snowy">Snowy</option>
+                                <option value="Temperate">Temperate</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 2</p>
+                <p class="subtitle is-5">What time of the year do you plan on traveling?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q2">
+                                <option value=""></option>
+                                <option value="Fall">Fall</option>
+                                <option value="Winter">Winter</option>
+                                <option value="Spring">Spring</option>
+                                <option value="Summer">Summer</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 3</p>
+                <p class="subtitle is-5">What kind of travel setting do you enjoy?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q3">
+                                <option value=""></option>
+                                <option value="1">Relaxing</option>
+                                <option value="2">Adventure</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 4</p>
+                <p class="subtitle is-5">Do you enjoy taveling with others?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q4">
+                                <option value=""></option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 5</p>
+                <p class="subtitle is-5">Do you enjoy outdoor adventures?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q5">
+                                <option value=""></option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 6</p>
+                <p class="subtitle is-5">Would you like to take palate on an adventure?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q6">
+                                <option value=""></option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 7</p>
+                <p class="subtitle is-5">Would learning history about your destination be a priority on vacation?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q7">
+                                <option value=""></option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p class="title is-3">Question 8</p>
+                <p class="subtitle is-5">What form of travel would you enjoy most?</p>
+                <div class="field">
+                    <div class="control">
+                        <div class="select is-primary is-medium is-rounded">
+                            <select data-placeholder="" class="chosen-select" id="q8">
+                                <option value=""></option>
+                                <option value="1">Drive</option>
+                                <option value="2">Train</option>
+                                <option value="1">Sail</option>
+                                <option value="2">Fly</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <button class="button is-primary is-rounded" type="submit" id="submit">Submit</button>
+                <hr>
+            </form>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title"><strong>A RAFT has saved your travel planning</strong></h2>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="matchName"></h2>
+                        <h2 id="matchClimate"></h2>
+                        <h2 id="matchBestSeason"></h2>
+                        <br>
+                        <br>
+                        <img id="matchImg" alt="" height="600" width="600">
+                        <br>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <h2 class="subtitle" align="center">
+                                <br>
+                                Already have a RAFT? Click below to see your destinations!
+                            </h2>
+                            <br>
+                            <a href="/travelList" id="raft-list" align="center" class="button is-primary is-rounded">All
+                                Aboard!</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="team">
+            <h3>TEAM TIGER SHARKS</h3>
+            <ul>
+                <li>Alvin Joesph</li>
+                <li>James Cho</li>
+                <li>Kelan Moffatt</li>
+                <li>Calum Ragan</li>
+            </ul>
+        </div>
+        <div class="content has-text-centered">
+            <img class="shark" src="/assets/images/tigershark2.png" alt="" height="150" width="150" align="left">
+            <p class="title is-1 is-primary">
+                &copy;RAFT
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

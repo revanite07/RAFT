@@ -1,0 +1,43 @@
+{
+  "name": "raft",
+  "version": "1.0.0",
+  "description": "The app that saves you from drowning in travel planning",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "seed": "node db/seeds.js",
+    "reset": "node db/seeds.js reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandiddy/RAFT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandiddy/RAFT/issues"
+  },
+  "homepage": "https://github.com/bandiddy/RAFT#readme",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.2",
+    "bulma-carousel": "^3.0.0",
+    "bulma-extensions": "^4.0.1",
+    "bulma-start": "0.0.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jest": "^23.6.0",
+    "mysql2": "^1.6.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nightmare": "^3.0.1"
+  }
+}

@@ -1,0 +1,274 @@
+
+body, {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    background-color: rgb(221, 221, 221);
+}
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+}
+#title {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    margin-top: 1%;
+}
+
+.raft {
+    margin-top: -12%;
+    float: right;
+}
+.tree {
+    margin-top: -2%;
+}
+
+.hero.is-primary .subtitle, .hero.is-primary .title {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color: black;
+    margin-left: 5%;
+}
+
+.footer {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+    background-color: rgb(192, 192, 192);
+    width:100%;
+}
+
+#userInput, #email-input, #password-input {
+    width:30%;
+}
+ 
+.data-input {
+    margin-left:8%;
+}
+.navbar-brand{
+    margin-left: 1%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    
+}
+
+.signup, .login, .sign-header {
+    font-size: 20px;
+    margin-left:3%;
+    margin-top: 1%;
+}
+
+#title, #subtitle {
+    text-align: center;
+
+}
+
+.carousel-control-next-icon {
+    color:white;
+}
+
+.carousel img {
+    max-height: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.carousel-control-next{
+    margin-top: 50%;
+    margin-right:10%;
+}
+.carousel-control-prev{
+    margin-top: 50%;
+    margin-left:10%;
+}
+.carousel-caption {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+}
+.main {
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+}
+#raft-survey {
+    margin-left:42%;
+    margin-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    
+}
+.subtitle {
+    
+    margin-top: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+}
+#raft-create {
+    margin-left:45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    
+}
+#raft-list {
+    margin-left:45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    
+}
+#raft-list {
+    margin-left:44.5%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    
+}
+.locationTable {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+}
+.shark {
+    margin-top: -2%;
+    float: right;
+}
+.team {
+    float: right;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: -2%
+}
+#nameInput, #countryInput {
+    width:30%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  #myModal {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+}
+
+  .modal-title {
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+
+}
+  #matchName {
+    font-size:35px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+}
+
+  #matchClimate, #matchBestSeason {
+    font-size:20px;
+    text-align:center;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+    color:black;
+  }
+
+  #matchImg{
+    margin-left:20%;
+  }
+
+  .button  {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Audiowide', cursive;
+}
+
+    .Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+  
+  .Site-content {
+    flex: 1;
+}
+
+.locationTable {
+    font-family: Georgia, serif;
+    border: 6px solid black;
+    background-color: #D4EED1;
+    width: 100%;
+    text-align: center;
+  }
+  table.locationTable td, table.locationTableTable th {
+    border: 1px solid gray;;
+    padding: 3px 2px;
+  }
+  table.locationTable tbody td {
+    font-size: 12px;
+  }
+  table.locationTable thead {
+    background: seagreen;
+    border-bottom: 0px solid #444444;
+  }
+  table.locationTable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: center;
+    border-left: 2px solid green
+  }
+  table.locationTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.locationTable tfoot {
+    font-size: 13px;
+    font-weight: normal;
+    color: #F0F0F0;
+    background: seagreen;
+    background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+  }
+  table.locationTable tfoot td {
+    font-size: 13px;
+  }

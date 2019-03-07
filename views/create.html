@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Your Destination</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="/assets/js/create.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Shadows+Into+Light" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="Site">
+    <header class="hero is-primary is-bold">
+        <a class="navbar-brand" href="/logout">Logout</a>
+        <div class="hero-body">
+            <a href="/main">
+                <div class="container">
+                    <img class="tree" src="https://cdn3.iconfinder.com/data/icons/beach-icons/496/Palm_Trees-512.png"
+                        height="100" width="100" align="left" alt="">
+                    <h1 class="title">
+                        RAFT
+                    </h1>
+                    <h2 class="subtitle">
+                        Stop drowning, Start planning..
+                    </h2>
+                    <img class="raft" src="https://image.flaticon.com/icons/png/512/208/208590.png" height="100" width="100"
+                        align="right" alt="">
+
+                </div>
+            </a>
+        </div>
+    </header>
+    <main class="Site-content">
+        <div class="container" id="container">
+            <p class="title is-1 is-center" id="title">Travel Questions</p>
+            <hr>
+            <form class="data-input">
+                <div>
+                    <p class="title is-3">Question 1</p>
+                    <p class="subtitle is-5">Where did you go?</p>
+                    <input class="input is-rounded" type="text" id="nameInput" placeholder="Where have you been?">
+                </div>
+                <div>
+                    <p class="title is-3">Question 2</p>
+                    <p class="subtitle is-5">What country was it in?</p>
+                    <input class="input is-rounded" type="text" id="countryInput" placeholder="What's the name of country?">
+                </div>
+                <div>
+                    <p class="title is-3">Question 3</p>
+                    <p class="subtitle is-5">What kind of climate did you experience at your destination?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q3">
+                        <select class="chosen-select">
+                            <option value=""></option>
+                            <option value="Sunny">Sunny</option>
+                            <option value="Tropical">Tropical</option>
+                            <option value="Snowy">Snowy</option>
+                            <option value="Temperate">Temperate</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 4</p>
+                    <p class="subtitle is-5">In your opinion, what is the best time to travel to that destination?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q4">
+                        <select class="chosen-select">
+                            <option value=""></option>
+                            <option value=" Summer">Summer</option>
+                            <option value="Fall">Fall</option>
+                            <option value="Winter">Winter</option>
+                            <option value="Spring">Spring</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 5</p>
+                    <p class="subtitle is-5">Do you consider the destination more adventurous or relaxing?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q5">
+
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Relaxing</option>
+                            <option value="2">Adventurous</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 6</p>
+                    <p class="subtitle is-5">Do you consider your destination busy or less crowded?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q6">
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Busy</option>
+                            <option value="2">Not Crowded</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 7</p>
+                    <p class="subtitle is-5">Did you enjoy any outdoor adventures during your vacation?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q7">
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 8</p>
+                    <p class="subtitle is-5">Were you able to enjoy any exotic or new foods?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q8">
+
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 9</p>
+                    <p class="subtitle is-5">Were you able to enjoy any exotic or new foods?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q9">
+
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <p class="title is-3">Question 10</p>
+                    <p class="subtitle is-5">What was your main form of travel during your vacation?</p>
+                    <div class="select is-primary is-medium is-rounded" id="q10">
+
+                        <select>
+                            <option value=""></option>
+                            <option value="1">Drive</option>
+                            <option value="2">Train</option>
+                            <option value="1">Sail</option>
+                            <option value="2">Fly</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="control">
+                        <button href="/main" class="button is-primary is-rounded" type="submit" class="create-data">Submit</button>
+                    </div>
+            </form>
+        </div>
+        <br>
+        <br>
+    </main>
+
+    <footer class="footer">
+        <div class="team">
+            <h3>TEAM TIGER SHARKS</h3>
+            <ul>
+                <li>Alvin Joesph</li>
+                <li>James Cho</li>
+                <li>Kelan Moffatt</li>
+                <li>Calum Ragan</li>
+            </ul>
+        </div>
+        <div class="content has-text-centered">
+            <img class="shark" src="/assets/images/tigershark2.png" alt="" height="150" width="150" align="left">
+            <p class="title is-1 is-primary">
+                &copy;RAFT
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

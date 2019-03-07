@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your RAFT</title>
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.js"></script>
+    <script src="/assets/js/travelListApp.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Shadows+Into+Light" rel="stylesheet">
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero is-primary is-bold">
+        <a class="navbar-brand" href="/logout">Logout</a>
+        <div class="hero-body">
+            <a href="/main">
+                <div class="container">
+                    <img class="tree" src="https://cdn3.iconfinder.com/data/icons/beach-icons/496/Palm_Trees-512.png"
+                        height="100" width="100" align="left" alt="">
+                    <h1 class="title">
+                        RAFT
+                    </h1>
+                    <h2 class="subtitle">
+                        Stop drowning, Start planning..
+                    </h2>
+                    <img class="raft" src="https://image.flaticon.com/icons/png/512/208/208590.png" height="100" width="100"
+                        align="right" alt="">
+
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="container">
+            <h1 class="title is-1" id="title">Your Future Travel Destination</h1>
+            <h2 class="subtitle is 5" id="title">a raft has saved your travel planning</h2>
+            <hr>
+            <table ng-app="tlApp" ng-controller="tlController" class="locationTable">
+                <tr>
+                    <th>Delete</th>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Climate</th>
+                    <th>Best Season</th>
+                </tr>
+                <tr ng-repeat="row in destinations">
+                    <td><a ng-click="delete(row.id, $index)">Delete</a></td>
+                    <td>{{row.name}}</td>
+                    <td>{{row.country}}</td>
+                    <td>{{row.climate}}</td>
+                    <td>{{row.bestSeason}}</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="team">
+            <h3>TEAM TIGER SHARKS</h3>
+            <ul>
+                <li>Alvin Joesph</li>
+                <li>James Cho</li>
+                <li>Kelan Moffatt</li>
+                <li>Calum Ragan</li>
+            </ul>
+        </div>
+        <div class="content has-text-centered">
+            <img class="shark" src="/assets/images/tigershark2.png" alt="" height="150" width="150" align="left">
+            <p class="title is-1 is-primary">
+                &copy;RAFT
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
